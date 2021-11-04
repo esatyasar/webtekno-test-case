@@ -60,8 +60,8 @@ function Main() {
             <p className='news6Content'>Spotify, kişilerin dinleme zevklerini birleştiren Blend özelliğini getiriyor</p>
             <div className='news6Hr'></div>
             <div className='d-flex'>
-                
-                <p className='userName'>Mark Zuckenberg <span> - </span> <span>12 dk önce</span></p>
+              <p className='avatar'></p>
+              <p className='userName'>Mark Zuckenberg <span> - </span> <span>12 dk önce</span></p>
                
             </div>
         </div>
