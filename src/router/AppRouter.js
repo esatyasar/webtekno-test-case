@@ -6,12 +6,12 @@ import Home from '../pages/Home'
 function AppRouter() {
     return (
         <BrowserRouter>
+            <div className='container'>
             <Navbar />
                 <Switch>
-                    {/* <Route path ="" component = {Dashboard}/> 
-                    <Route path ="" component = {Details}/> */}
                     <Route path ="" component = {Home}/>
                 </Switch>
+            </div>
         </BrowserRouter>
     )
 }

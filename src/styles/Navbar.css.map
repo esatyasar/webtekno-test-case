@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAA;EACD,KAAK,ECFK,OAAO;CDGpB",
+    "sources": [
+        "Navbar.scss",
+        "colors/colors.scss"
+    ],
+    "names": [],
+    "file": "Navbar.css"
+}
