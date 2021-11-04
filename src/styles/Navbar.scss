@@ -1,5 +1,49 @@
-@import './colors/colors.scss';
+$background: #f5f5f5;
+$primaryColor:#D0021B;
+$secondaryColor: #FFB400;
+$primaryTextColor: #222222;
+$secondaryTextColor:#8C8C8C;
+$grayColor:#DDDDDD;
+$grayColor2:#EEEEEE;
+$whiteColor:#FFFFFF;
+$greenColor:#00A82D;
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+.nav{
+    background-color: $whiteColor;
+}
 .logo{
     color: $primaryColor;
+    margin: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbarTitles{
+    width: 40.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.6rem;
+}
+.linkTitle{
+    color: $primaryTextColor;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.linkTitle:hover{
+    color: $secondaryTextColor;
+}
+.navbarIcons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
