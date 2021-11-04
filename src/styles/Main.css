@@ -1,0 +1,117 @@
+.mainContainer {
+  margin-top: 3rem;
+  margin-bottom: 0.9rem;
+}
+
+.news1 {
+  background-image: url(../assets/meta.JPG);
+  height: 435px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+}
+
+.newsSubtitle {
+  color: #FFFFFF;
+  max-width: 80%;
+}
+
+.newsNotifications {
+  color: #8C8C8C;
+  font-size: 0.8rem;
+}
+
+.news2 {
+  background-image: url(../assets/netflix.png);
+  height: 435px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.6rem;
+  margin-right: 0.6rem;
+  border-radius: 5px;
+}
+
+.newContents {
+  color: #D0021B;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.news3 {
+  background-image: url(../assets/iphone.jpg);
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 0.6rem;
+}
+
+.newsSubtitle2 {
+  color: #FFFFFF;
+  max-width: 90%;
+}
+
+.news4 {
+  background-image: url(../assets/elon.jpg);
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 0.6rem;
+}
+
+.news5 {
+  background-image: url(../assets/porshe.jpg);
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 0.6rem;
+}
+
+.mobileApp {
+  color: #8C8C8C;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.news6Content {
+  font-size: 2rem;
+  color: #222222;
+  letter-spacing: -0.6px;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.news6Hr {
+  width: 3rem;
+  height: 5px;
+  background-color: #EEEEEE;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news6 {
+  background-image: url(../assets/spotify.jpg);
+  height: 321px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+.userName {
+  color: #8C8C8C;
+}
+/*# sourceMappingURL=Main.css.map */

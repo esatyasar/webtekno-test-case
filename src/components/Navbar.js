@@ -4,7 +4,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light nav">
+      <nav className="navbar  navbar-expand-lg navbar-light nav">
         <div className="container-fluid">
           <a className="navbar-brand " href="#">
             <p className="logo">WEBTEKNO</p>
