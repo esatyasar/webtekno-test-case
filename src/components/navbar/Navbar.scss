@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import '../../styles/variables.scss';
 
 *{
     box-sizing: border-box;
@@ -9,10 +9,8 @@
 .nav{
     background-color: $whiteColor;
     padding-top: 1rem;
-  
     max-height: 4rem;
 }
-
 .logo{
     color: $primaryColor;
     margin: auto;
@@ -37,10 +35,11 @@
     color: $secondaryTextColor;
 }
 .navbarIcons{
-    width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 16rem;
+    min-width: 10rem;
 }
 .bi{
     cursor: pointer;
@@ -52,5 +51,14 @@ hr{
 .userMenu{
     height: 250px;
     width: 225px;
-    
+}
+.searchBtn,
+.bellBtn,
+.listBtn{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.avatarBtn{
+    width: 1.5rem;
+    height: 1.5rem;
 }

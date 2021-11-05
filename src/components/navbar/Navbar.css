@@ -39,10 +39,11 @@
 }
 
 .navbarIcons {
-  width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 16rem;
+  min-width: 10rem;
 }
 
 .bi {
@@ -57,4 +58,16 @@ hr {
   height: 250px;
   width: 225px;
 }
-/*# sourceMappingURL=navbar.css.map */
+
+.searchBtn,
+.bellBtn,
+.listBtn {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.avatarBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/*# sourceMappingURL=Navbar.css.map */

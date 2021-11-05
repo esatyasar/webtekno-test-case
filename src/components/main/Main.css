@@ -4,7 +4,7 @@
 }
 
 .news1 {
-  background-image: url(../assets/meta.JPG);
+  background-image: url(../../assets/meta.JPG);
 }
 
 .news1,
@@ -28,7 +28,7 @@
 }
 
 .news2 {
-  background-image: url(../assets/netflix.png);
+  background-image: url(../../assets/netflix.png);
 }
 
 .newContents {
@@ -40,7 +40,7 @@
 }
 
 .news3 {
-  background-image: url(../assets/iphone.jpg);
+  background-image: url(../../assets/iphone.jpg);
 }
 
 .news3,
@@ -59,11 +59,11 @@
 }
 
 .news4 {
-  background-image: url(../assets/elon.jpg);
+  background-image: url(../../assets/elon.jpg);
 }
 
 .news5 {
-  background-image: url(../assets/porshe.jpg);
+  background-image: url(../../assets/porshe.jpg);
 }
 
 .mobileApp {
@@ -89,7 +89,7 @@
 }
 
 .news6 {
-  background-image: url(../assets/spotify.jpg);
+  background-image: url(../../assets/spotify.jpg);
   height: 321px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,5 +100,12 @@
 
 .userName {
   color: #8C8C8C;
+  margin-left: 0.6rem;
+}
+
+.profilePic {
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=Main.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Main.css";
+import "./Main.css";
 
 function Main() {
   return (
@@ -60,7 +60,7 @@ function Main() {
             <p className='news6Content'>Spotify, kişilerin dinleme zevklerini birleştiren Blend özelliğini getiriyor</p>
             <div className='news6Hr'></div>
             <div className='d-flex'>
-              <img src="https://picsum.photos/id/237/40/40" alt="dog" />
+              <img src="https://picsum.photos/id/237/40/40" alt="dog" className='profilePic' />
               <p className='userName'>Mark Zuckenberg <span> - </span> <span>12 dk önce</span></p>
                
             </div>
