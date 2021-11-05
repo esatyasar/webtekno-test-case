@@ -6,6 +6,9 @@
 }
 .news1{
     background-image: url(../assets/meta.JPG);
+}
+.news1,
+.news2{
     height: 435px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,12 +27,6 @@
 }
 .news2{
     background-image: url(../assets/netflix.png);
-    height: 435px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 0.6rem;
-    margin-right: 0.6rem;
-    border-radius: 5px;
 }
 .newContents{
     color: $primaryColor;
@@ -38,8 +35,12 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.news3{
+.news3{ 
     background-image: url(../assets/iphone.jpg);
+}
+.news3,
+.news4,
+.news5{
     height: 225px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,19 +53,9 @@
 }
 .news4{
     background-image: url(../assets/elon.jpg);
-    height: 225px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-    margin-right: 0.6rem;
 }
 .news5{
     background-image: url(../assets/porshe.jpg);
-    height: 225px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-    margin-right: 0.6rem;
 }
 .mobileApp{
     color: $secondaryTextColor;
@@ -93,13 +84,6 @@
     margin-right: 0.6rem;
     margin-bottom: 0.6rem;
     border-radius: 5px;
-}
-.avatar{
-    background-image: url(../assets/profile.jfif);
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 50%;
-    margin-right: 0.5rem;
 }
 .userName{
     color: $secondaryTextColor;

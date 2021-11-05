@@ -8,8 +8,7 @@
 .nav {
   background-color: #FFFFFF;
   padding-top: 1rem;
-  padding-bottom: 1rem;
-  box-shadow: 0px 2px 0px 0px #d4d4d4;
+  max-height: 4rem;
 }
 
 .logo {
@@ -49,4 +48,13 @@
 .bi {
   cursor: pointer;
 }
-/*# sourceMappingURL=Navbar.css.map */
+
+hr {
+  box-shadow: 0px 2px 0px 0px #d4d4d4;
+}
+
+.userMenu {
+  height: 250px;
+  width: 225px;
+}
+/*# sourceMappingURL=navbar.css.map */

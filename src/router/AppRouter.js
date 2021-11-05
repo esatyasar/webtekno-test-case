@@ -6,7 +6,7 @@ import Home from '../pages/Home'
 function AppRouter() {
     return (
         <BrowserRouter>
-            <div className='container'>
+            <div className='container-fluid'>
             <Navbar />
                 <Switch>
                     <Route path ="" component = {Home}/>
