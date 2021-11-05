@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import DropdownUserMenu from "../dropdownUserMenu/DropdownUserMenu";
-import SearchBar from '../searchBar/SearchBar'
-import NotificationsDropDown from '../notificationsDropdown/NotificationsDropdown'
+import SearchBar from "../searchBar/SearchBar";
+import NotificationsDropDown from "../notificationsDropdown/NotificationsDropdown";
 import { BsSearch, BsPersonCircle, BsBell, BsList } from "react-icons/bs";
 
 function Navbar() {
@@ -86,20 +86,20 @@ function Navbar() {
                 </ul>
               </li>
             </ul>
-            <div className="navbarIcons">
-              <div className="userIcon">
+            <ul className="navbar-nav navbarIcons">
+              <li className="navbar-item usercon">
                 <a
-                  className="btn"
+                  className="nav-link"
                   data-bs-toggle="collapse"
-                  href="#collapseExample"
+                  href="#search"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
                   <BsSearch className="searchBtn" />
                 </a>
-              </div>
-              <div className="collapse userCardMenu" id="collapseExample">
+              </li>
+              <div className="collapse userCardMenu" id="search">
                 <div className="card card-body">
                   <SearchBar />
                 </div>
@@ -108,17 +108,34 @@ function Navbar() {
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
-                  href="#collapseExample"
+                  href="#bell"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  <BsBell className='bellBtn' />
+                  <BsBell className="bellBtn" />
                 </a>
               </div>
-              <div className="collapse userCardMenu" id="collapseExample">
+              <div className="collapse userCardMenu" id="bell">
                 <div className="card card-body">
                   <NotificationsDropDown />
+                </div>
+              </div>
+              <div className="userIcon">
+                <a
+                  className="btn"
+                  data-bs-toggle="collapse"
+                  href="#personCircle"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <BsPersonCircle className="avatarBtn" />
+                </a>
+              </div>
+              <div className="collapse userCardMenu" id="personCircle">
+                <div className="card card-body userMenu">
+                  <DropdownUserMenu />
                 </div>
               </div>
               <div className="userIcon">
@@ -130,27 +147,10 @@ function Navbar() {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  <BsPersonCircle className="avatarBtn" />
+                  <BsList className="listBtn" />
                 </a>
               </div>
-              <div className="collapse userCardMenu" id="collapseExample">
-                <div className="card card-body userMenu">
-                  <DropdownUserMenu />
-                </div>
-              </div>
-              <div className="userIcon">
-              <a
-                  className="btn"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                <BsList className='listBtn' />
-                </a>
-              </div>
-            </div>
+            </ul>
           </div>
         </div>
       </nav>

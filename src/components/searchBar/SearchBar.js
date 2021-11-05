@@ -2,7 +2,7 @@ import React from 'react'
 
 function SearchBar() {
     return (
-        <div>
+        <div className='searchBar'>
             esat
         </div>
     )
