@@ -1,4 +1,33 @@
-.toggleOff {
-  font-size: large;
+.active {
+  color: #D0021B;
+  background-color: rgba(208, 2, 27, 0.05);
+  border-radius: 4px;
+}
+
+.txtWelcome {
+  color: #8C8C8C;
+  font-weight: bold;
+  font-size: 0.6876rem;
+  line-height: 0.875rem;
+  letter-spacing: 2px;
+}
+
+.txtName {
+  color: #222222;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: -0.4px;
+}
+
+.userMenuItems {
+  color: #222222;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.userMenuIcons {
+  color: #8C8C8C;
 }
 /*# sourceMappingURL=DropdownUserMenu.css.map */

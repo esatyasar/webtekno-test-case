@@ -87,7 +87,7 @@ function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav navbarIcons">
-              <li className="navbar-item usercon">
+              <li className="navbar-item userIcon">
                 <a
                   className="nav-link"
                   data-bs-toggle="collapse"
@@ -104,7 +104,7 @@ function Navbar() {
                   <SearchBar />
                 </div>
               </div>
-              <div className="userIcon">
+              <li className="userIcon">
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -115,13 +115,13 @@ function Navbar() {
                 >
                   <BsBell className="bellBtn" />
                 </a>
-              </div>
+              </li>
               <div className="collapse userCardMenu" id="bell">
-                <div className="card card-body">
+                <div className="card userCard">
                   <NotificationsDropDown />
                 </div>
               </div>
-              <div className="userIcon">
+              <li className="userIcon">
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -132,13 +132,13 @@ function Navbar() {
                 >
                   <BsPersonCircle className="avatarBtn" />
                 </a>
-              </div>
+              </li>
               <div className="collapse userCardMenu" id="personCircle">
                 <div className="card userCard">
                   <DropdownUserMenu />
                 </div>
               </div>
-              <div className="userIcon">
+              <li className="userIcon">
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -149,7 +149,7 @@ function Navbar() {
                 >
                   <BsList className="listBtn" />
                 </a>
-              </div>
+              </li>
             </ul>
           </div>
         </div>
