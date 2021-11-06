@@ -134,7 +134,7 @@ function Navbar() {
                 </a>
               </div>
               <div className="collapse userCardMenu" id="personCircle">
-                <div className="card card-body userMenu">
+                <div className="card userCard">
                   <DropdownUserMenu />
                 </div>
               </div>

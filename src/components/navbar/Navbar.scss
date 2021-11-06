@@ -35,8 +35,6 @@
     color: $secondaryTextColor;
 }
 .navbarIcons{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 16rem;
     min-width: 10rem;
@@ -45,12 +43,7 @@
     cursor: pointer;
 }
 hr{
-    -webkit-box-shadow: 0px 8px 0px 0px #d1d1d1, ; 
-    box-shadow: 0px 2px 0px 0px #d4d4d4, ;
-}
-.userMenu{
-    height: 250px;
-    width: 225px;
+    opacity: 0.1;
 }
 .searchBtn,
 .bellBtn,
@@ -63,5 +56,10 @@ hr{
     height: 1.5rem;
 }
 .userCardMenu{
-    margin-top: 10rem;
+    margin-top: 20rem;
+    z-index: 1;
+}
+.userCard{
+    width: 273px;
+    height:370px;
 }
