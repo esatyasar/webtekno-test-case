@@ -1,29 +1,31 @@
-@import '../../styles/variables.scss';
-.active{
-    color: $primaryColor;
-    background-color: rgba(208, 2, 27, 0.05);
-    border-radius: 4px;
+@import "../../styles/variables.scss";
+.active {
+  color: $primaryColor;
+  background-color: rgba(208, 2, 27, 0.05);
+  border-radius: 4px;
 }
-.txtWelcome{
-    color:$secondaryTextColor;
-    font-weight: bold;
-    font-size: 0.6876rem;
-    line-height: 0.875rem;
-    letter-spacing: 2px;
+.txtWelcome {
+  color: $secondaryTextColor;
+  font-weight: bold;
+  font-size: 0.6876rem;
+  line-height: 0.875rem;
+  letter-spacing: 2px;
 }
-.txtName{
-    color: $primaryTextColor;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    letter-spacing: -0.4px;
+.txtName {
+  color: $primaryTextColor;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: -0.4px;
 }
-.userMenuItems{
-    color: $primaryTextColor;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.7rem;
+.userMenuItems {
+  color: $primaryTextColor;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.7rem;
 }
-.userMenuIcons{
-    color: $secondaryTextColor;
+.userMenuIcons {
+  color: $secondaryTextColor;
+  width: 1.25rem;
+  height: 1.25rem;
 }

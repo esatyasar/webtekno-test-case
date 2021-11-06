@@ -1,5 +1,5 @@
 import React from "react";
-import './DropdownUserMenu.css'
+import "./DropdownUserMenu.css";
 import {
   BsMoonFill,
   BsToggleOff,
@@ -19,7 +19,7 @@ function DropdownUserMenu() {
         <hr class="divider" />
       </div>
       <div className="ms-2 me-2">
-        <div className="d-flex justify-content-between ">
+        <div className="d-flex justify-content-between">
           <div className="d-flex justify-content-start mt-2 mb-2 ms-3">
             <BsMoonFill className="my-auto userMenuIcons" />
             <p className="ms-2 my-auto my-auto userMenuItems">Gece Modu</p>

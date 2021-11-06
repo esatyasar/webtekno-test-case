@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.notification {
+  color: $secondaryTextColor;
+  font-weight: 600;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 2px;
+}
+.chatIcon,
+.likeIcon,
+.unlikeIcon {
+  width: 20px;
+  height: 20px;
+}
+.chatIcon {
+  color: $secondaryTextColor;
+}
+.likeIcon {
+  color: #00a82d;
+}
+.unlikeIcon {
+  color: #d0021b;
+}
+.lastSeen {
+  color: $secondaryTextColor;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  letter-spacing: -0.2px;
+}
+.textSection {
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.2px;
+}
