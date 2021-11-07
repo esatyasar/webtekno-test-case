@@ -1,103 +1,158 @@
-@import '../../styles/variables.scss';
-*{  
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
+@import "../../styles/variables.scss";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
 }
-
-.mainContainer{
-    margin-top: 3rem;
-    margin-bottom: 0.9rem;
-    
+.mainContainer {
+  margin-top: 5rem;
+  margin-bottom: 0.9rem;
 }
-.news1{
-    background-image: url(../../assets/meta.JPG);
+.news1 {
+  background-image: url(../../assets/meta.JPG);
+  margin-right: 0.6rem;
 }
 .news1,
-.news2{
-    height: 435px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 0.6rem;
-    margin-bottom: 0.6rem;
-    border-radius: 5px;
+.news2 {
+  height: 29.5625rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
 }
-.newsSubtitle{
-    color: $whiteColor;
-    max-width: 80%;
-   
+.newsSubtitle {
+  color: $whiteColor;
+  max-width: 80%;
 }
-.newsNotifications{
-    color: $secondaryTextColor;
-    font-size: 0.8rem;
+.newsNotifications {
+  color: $secondaryTextColor;
+  font-size: 0.8rem;
 }
-.news2{
-    background-image: url(../../assets/netflix.png);
+.news2 {
+  background-image: url(../../assets/netflix.png);
 }
-.newContents{
-    color: $primaryColor;
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.newContents {
+  color: $primaryColor;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.news3{ 
-    background-image: url(../../assets/iphone.jpg);
+.news3 {
+  background-image: url(../../assets/iphone.jpg);
+  margin-right: 0.6rem;
 }
 .news3,
 .news4,
-.news5{
-    height: 225px;
-    background-repeat: no-repeat;
+.news5 {
+  height: 14.0625rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.newsSubtitle2 {
+  color: $whiteColor;
+  max-width: 90%;
+}
+.news4 {
+  background-image: url(../../assets/elon.jpg);
+  margin-right: 0.6rem;
+}
+.news5 {
+  background-image: url(../../assets/porshe.jpg);
+}
+.mobileApp {
+  color: $secondaryTextColor;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+.news6Content {
+  font-size: 2rem;
+  color: $primaryTextColor;
+  letter-spacing: -0.6px;
+  line-height: 2rem;
+  font-weight: bold;
+}
+.news6Hr {
+  width: 3rem;
+  height: 5px;
+  background-color: $grayColor2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.news6 {
+  background-image: url(../../assets/spotify.jpg);
+  height: 20.0625rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+}
+.userName {
+  color: $secondaryTextColor;
+  margin-left: 0.6rem;
+}
+.profilePic {
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 50%;
+}
+@media screen and (max-width: 810px) {
+  html {
+    font-size: 14px;
+  }
+  .newsSubtitle {
+    font-size: 1.3rem;
+  }
+  .newsSubtitle2 {
+    font-size: 1rem;
+  }
+  .news2,
+  .news5,
+  .news6 {
+    margin-right: 0rem;
+  }
+}
+@media screen and(max-width:470px) {
+  html {
+    font-size: 12px;
+  }
+  .news1,
+  .news2 {
+    height: 25rem;
+    background-repeat: round;
     background-size: cover;
-    border-radius: 5px;
-    margin-right: 0.6rem;
-}
-.newsSubtitle2{
-    color: $whiteColor;
-    max-width: 90%;
-}
-.news4{
-    background-image: url(../../assets/elon.jpg);
-}
-.news5{
-    background-image: url(../../assets/porshe.jpg);
-}
-.mobileApp{
-    color: $secondaryTextColor;
-    font-size: 0.7rem;
-    letter-spacing: 2px;
-}
-.news6Content{
-    font-size: 2rem;
-    color: $primaryTextColor;
-    letter-spacing: -0.6px;
-    line-height: 2rem;
-    font-weight: bold;
-}
-.news6Hr{
-    width: 3rem;
-    height: 5px;
-    background-color: $grayColor2;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.news6{
-    background-image: url(../../assets/spotify.jpg);
-    height: 321px;
-    background-repeat: no-repeat;
+  }
+  .news3,
+  .news4,
+  .news5 {
+    height: 11rem;
+    background-repeat: round;
     background-size: cover;
-    margin-right: 0.6rem;
-    margin-bottom: 0.6rem;
-    border-radius: 5px;
+  }
+  .newsSubtitle {
+    font-size: 1.3rem;
+  }
+  .newsSubtitle2 {
+    font-size: 1rem;
+  }
+  .news6 {
+    height: 17rem;
+    background-repeat: round;
+    background-size: cover;
+  }
+  .news6Content {
+    font-size: 1.5rem;
+  }
 }
-.userName{
-    color: $secondaryTextColor;
-    margin-left: 0.6rem;
+@media screen and(max-width:415px) {
+  .newsSubtitle2 {
+    font-size: 0.8rem;
+  }
 }
-.profilePic{
-    width: 1.55rem;
-    height: 1.55rem;
-    border-radius: 50%;
+@media screen and(max-width:313px) {
+  .news5 {
+    margin-top: 0.6rem;
+  }
 }

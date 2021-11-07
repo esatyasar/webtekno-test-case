@@ -88,12 +88,15 @@ function Navbar() {
                   <BsSearch className="searchBtn" />
                 </a>
               </li>
-              <div className="collapse-horizontal contianer collapseSearchBar" id="search">
+              <div
+                className="collapse-horizontal contianer collapseSearchBar"
+                id="search"
+              >
                 <div className="card collapseSearch">
                   <SearchBar />
                 </div>
               </div>
-              <li className='userIcons'>
+              <li className="userIcons">
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -105,7 +108,10 @@ function Navbar() {
                   <BsBell className="bellBtn" />
                 </a>
               </li>
-              <div className="collapse-horizontal container collapseMenu" id="bell">
+              <div
+                className="collapse-horizontal container collapseMenu"
+                id="bell"
+              >
                 <div className="card userCard">
                   <NotificationsDropDown />
                 </div>
@@ -119,10 +125,17 @@ function Navbar() {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  <BsPersonCircle className="avatarBtn" />
+                  <img
+                    src="https://picsum.photos/id/237/40/40"
+                    alt="ProfilePic"
+                    className="avatarBtn"
+                  />
                 </a>
               </li>
-              <div className="collapse-horizontal container collapseMenu" id="personCircle">
+              <div
+                className="collapse-horizontal container collapseMenu"
+                id="personCircle"
+              >
                 <div className="card userCard">
                   <DropdownUserMenu />
                 </div>
@@ -143,7 +156,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <hr className="container-fluid" />
     </div>
   );
 }

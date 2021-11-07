@@ -2,24 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .mainContainer {
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 0.9rem;
 }
 
 .news1 {
   background-image: url(../../assets/meta.JPG);
+  margin-right: 0.6rem;
 }
 
 .news1,
 .news2 {
-  height: 435px;
+  height: 29.5625rem;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 0.6rem;
   margin-bottom: 0.6rem;
   border-radius: 5px;
 }
@@ -48,16 +48,16 @@
 
 .news3 {
   background-image: url(../../assets/iphone.jpg);
+  margin-right: 0.6rem;
 }
 
 .news3,
 .news4,
 .news5 {
-  height: 225px;
+  height: 14.0625rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
-  margin-right: 0.6rem;
 }
 
 .newsSubtitle2 {
@@ -67,6 +67,7 @@
 
 .news4 {
   background-image: url(../../assets/elon.jpg);
+  margin-right: 0.6rem;
 }
 
 .news5 {
@@ -97,10 +98,9 @@
 
 .news6 {
   background-image: url(../../assets/spotify.jpg);
-  height: 321px;
+  height: 20.0625rem;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 0.6rem;
   margin-bottom: 0.6rem;
   border-radius: 5px;
 }
@@ -114,5 +114,67 @@
   width: 1.55rem;
   height: 1.55rem;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 810px) {
+  html {
+    font-size: 14px;
+  }
+  .newsSubtitle {
+    font-size: 1.3rem;
+  }
+  .newsSubtitle2 {
+    font-size: 1rem;
+  }
+  .news2,
+  .news5,
+  .news6 {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 12px;
+  }
+  .news1,
+  .news2 {
+    height: 25rem;
+    background-repeat: round;
+    background-size: cover;
+  }
+  .news3,
+  .news4,
+  .news5 {
+    height: 11rem;
+    background-repeat: round;
+    background-size: cover;
+  }
+  .newsSubtitle {
+    font-size: 1.3rem;
+  }
+  .newsSubtitle2 {
+    font-size: 1rem;
+  }
+  .news6 {
+    height: 17rem;
+    background-repeat: round;
+    background-size: cover;
+  }
+  .news6Content {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .newsSubtitle2 {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .news5 {
+    margin-top: 0.6rem;
+  }
 }
 /*# sourceMappingURL=Main.css.map */

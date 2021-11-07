@@ -5,10 +5,15 @@
   /* border: 1px solid black; */
 }
 
+html {
+  font-size: 16px;
+}
+
 .nav {
   background-color: #FFFFFF;
   padding-top: 1rem;
   max-height: 4rem;
+  border-bottom: 1px solid gray;
 }
 
 .logo {
@@ -62,6 +67,7 @@ hr {
 .avatarBtn {
   width: 1.5rem;
   height: 1.5rem;
+  border-radius: 50%;
 }
 
 .collapseMenu {
@@ -70,7 +76,7 @@ hr {
 }
 
 .userCard {
-  width: 273px;
+  width: 17.06rem;
 }
 
 .collapseSearchBar {
@@ -86,9 +92,16 @@ hr {
   border-color: #D0021B;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
+  .collapseSearch {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   .nav {
     max-height: 10rem;
+    border-bottom: hidden;
   }
   .navbarContainer {
     display: flex;
@@ -97,6 +110,57 @@ hr {
   .navbarItemsContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .navbarTitles {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .collapseMenu {
+    margin-top: 10rem;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 12px;
+  }
+  .userCard {
+    width: 15rem;
+  }
+  .collapseSearch {
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 10px;
+  }
+  .userCard {
+    width: 13rem;
+  }
+  .nav-item {
+    margin-right: 1rem;
+  }
+  .navbarTitles {
+    display: contents;
+  }
+  .nav {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-height: auto;
+    position: relative;
+  }
+  .collapseSearch {
+    width: 15rem;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

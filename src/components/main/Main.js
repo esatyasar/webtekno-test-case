@@ -35,8 +35,7 @@ function Main() {
         </div>
         <div className="col news4 d-flex flex-column justify-content-end">
           <h4 className="newsSubtitle2">
-            Elon Musk, 1 trilyon getiren anlaşmanın imzalanmadığını
-            söyledi
+            Elon Musk, 1 trilyon getiren anlaşmanın imzalanmadığını söyledi
           </h4>
           <div className="d-flex newsNotifications">
             <p className="me-2">2s önce</p>
@@ -44,7 +43,7 @@ function Main() {
           </div>
         </div>
         <div className="col news5 d-flex flex-column justify-content-end">
-        <h4 className="newsSubtitle2">
+          <h4 className="newsSubtitle2">
             Tüm Zamanların En Güçlü Porsche si: 911 Turbo S Exclusive
           </h4>
           <div className="d-flex newsNotifications">
@@ -56,14 +55,22 @@ function Main() {
       <h1 className="newContents">YENİ İÇERİKLER </h1>
       <div className="row">
         <div className="col">
-            <p className='mobileApp'>Mobil Uygulama</p>
-            <p className='news6Content'>Spotify, kişilerin dinleme zevklerini birleştiren Blend özelliğini getiriyor</p>
-            <div className='news6Hr'></div>
-            <div className='d-flex'>
-              <img src="https://picsum.photos/id/237/40/40" alt="ProfilePic" className='profilePic' />
-              <p className='userName'>Mark Zuckenberg <span> - </span> <span>12 dk önce</span></p>
-               
-            </div>
+          <p className="mobileApp">Mobil Uygulama</p>
+          <p className="news6Content">
+            Spotify, kişilerin dinleme zevklerini birleştiren Blend özelliğini
+            getiriyor
+          </p>
+          <div className="news6Hr"></div>
+          <div className="d-flex">
+            <img
+              src="https://picsum.photos/id/237/40/40"
+              alt="ProfilePic"
+              className="profilePic"
+            />
+            <p className="userName">
+              Mark Zuckenberg <span> - </span> <span>12 dk önce</span>
+            </p>
+          </div>
         </div>
         <div className="col news6"></div>
       </div>

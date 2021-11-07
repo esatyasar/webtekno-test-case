@@ -1,87 +1,146 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid black; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
 }
-.nav{
-    background-color: $whiteColor;
-    padding-top: 1rem;
-    max-height: 4rem;
+html {
+  font-size: 16px;
 }
-.logo{
-    color: $primaryColor;
-    margin: auto;
-    font-weight: bold;
-    letter-spacing: 1px;
+.nav {
+  background-color: $whiteColor;
+  padding-top: 1rem;
+  max-height: 4rem;
+  border-bottom: 1px solid gray;
 }
-.navbarTitles{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 2.6rem;
+.logo {
+  color: $primaryColor;
+  margin: auto;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-.linkTitle{
-    color: $primaryTextColor;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+.navbarTitles {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.6rem;
 }
-.linkTitle:hover{
-    color: $secondaryTextColor;
+.linkTitle {
+  color: $primaryTextColor;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.navbarIcons{
-    width: 25;
-    justify-content: flex-end;
-    align-items: center;
+.linkTitle:hover {
+  color: $secondaryTextColor;
 }
-.bi{
-    cursor: pointer;
+.navbarIcons {
+  width: 25;
+  justify-content: flex-end;
+  align-items: center;
 }
-hr{
-    opacity: 0.1;
+.bi {
+  cursor: pointer;
+}
+hr {
+  opacity: 0.1;
 }
 .searchBtn,
 .bellBtn,
-.listBtn{
-    width: 1.25rem;
-    height: 1.25rem;
+.listBtn {
+  width: 1.25rem;
+  height: 1.25rem;
 }
-.avatarBtn{
-    width: 1.5rem;
-    height: 1.5rem;
+.avatarBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
 }
-.collapseMenu{
-    margin-top: 24rem;
+.collapseMenu {
+  margin-top: 24rem;
+  z-index: 1;
+}
+.userCard {
+  width: 17.06rem;
+}
+.collapseSearchBar {
+  z-index: 1;
+}
+.collapseSearch {
+  width: 25rem;
+  height: 3rem;
+}
+.collapseSearch:hover {
+  border-color: $primaryColor;
+}
+@media screen and (max-width: 1400px) {
+  .collapseSearch {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav {
+    max-height: 10rem;
+    border-bottom: hidden;
+  }
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarItemsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbarTitles {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .collapseMenu {
+    margin-top: 10rem;
     z-index: 1;
+  }
 }
-.userCard{
-    width: 273px;
+@media screen and(max-width:600px) {
+  html {
+    font-size: 14px;
+  }
 }
-.collapseSearchBar{
-    z-index: 1;
+@media screen and(max-width:470px) {
+  html {
+    font-size: 12px;
+  }
+  .userCard {
+    width: 15rem;
+  }
+  .collapseSearch {
+    width: 17rem;
+  }
 }
-.collapseSearch{
-    width: 25rem;
-    height: 3rem;
-}
-.collapseSearch:hover{
-    border-color: $primaryColor;
-}
-@media screen and (max-width:1000px) {
-    .nav{
-        max-height:10rem;
-    }
-    .navbarContainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .navbarItemsContainer{
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and(max-width:370px) {
+  html {
+    font-size: 10px;
+  }
+  .userCard {
+    width: 13rem;
+  }
+  .nav-item {
+    margin-right: 1rem;
+  }
+  .navbarTitles {
+    display: contents;
+  }
+  .nav {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-height: auto;
+    position: relative;
+  }
+  .collapseSearch {
+    width: 15rem;
+  }
 }
