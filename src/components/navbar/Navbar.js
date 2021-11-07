@@ -8,23 +8,12 @@ import { BsSearch, BsPersonCircle, BsBell, BsList } from "react-icons/bs";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar container navbar-expand-lg navbar-light nav">
-        <div className="container-fluid">
+      <nav className="navbar container fixed-top navbar-expand navbar-light nav">
+        <div className="container-fluid navbarContainer">
           <a className="navbar-brand " href="#">
             <p className="logo">WEBTEKNO</p>
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse navbarItemsContainer ">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbarTitles">
               <li className="nav-item">
                 <a className=" linkTitle" aria-current="page" href="#">
@@ -87,7 +76,7 @@ function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav navbarIcons">
-              <li className="navbar-item userIcon">
+              <li>
                 <a
                   className="nav-link"
                   data-bs-toggle="collapse"
@@ -99,12 +88,12 @@ function Navbar() {
                   <BsSearch className="searchBtn" />
                 </a>
               </li>
-              <div className="collapse userCardMenu" id="search">
-                <div className="card card-body">
+              <div className="collapse-horizontal contianer collapseSearchBar" id="search">
+                <div className="card collapseSearch">
                   <SearchBar />
                 </div>
               </div>
-              <li className="userIcon">
+              <li className='userIcons'>
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -116,12 +105,12 @@ function Navbar() {
                   <BsBell className="bellBtn" />
                 </a>
               </li>
-              <div className="collapse userCardMenu" id="bell">
+              <div className="collapse-horizontal container collapseMenu" id="bell">
                 <div className="card userCard">
                   <NotificationsDropDown />
                 </div>
               </div>
-              <li className="userIcon">
+              <li>
                 <a
                   className="btn"
                   data-bs-toggle="collapse"
@@ -133,12 +122,12 @@ function Navbar() {
                   <BsPersonCircle className="avatarBtn" />
                 </a>
               </li>
-              <div className="collapse userCardMenu" id="personCircle">
+              <div className="collapse-horizontal container collapseMenu" id="personCircle">
                 <div className="card userCard">
                   <DropdownUserMenu />
                 </div>
               </div>
-              <li className="userIcon">
+              <li>
                 <a
                   className="btn"
                   data-bs-toggle="collapse"

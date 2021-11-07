@@ -37,23 +37,23 @@ function DropdownUserMenu() {
             <BsBookmark className="my-auto userMenuIcons" />
             <p className="ms-2 my-auto userMenuItems">Kaydettiklerim</p>
           </div>
-          <p className="me-3 my-auto userMenuIcons">26</p>
+          <p className="me-3 my-auto numberInteraction">26</p>
         </div>
         <div className="d-flex justify-content-between">
           <div className="d-flex justify-content-start mt-2 mb-2 ms-3">
             <BsHeart className="my-auto userMenuIcons" />
             <p className="ms-2 my-auto userMenuItems">Tepkilerim</p>
           </div>
-          <p className="me-3 my-auto userMenuIcons">1.2K</p>
+          <p className="me-3 my-auto numberInteraction">1.2K</p>
         </div>
         <div className="d-flex justify-content-between">
           <div className="d-flex justify-content-start mt-2 mb-2 ms-3">
             <BsChatLeft className="my-auto userMenuIcons" />
             <p className="ms-2 my-auto userMenuItems"> Yorumlarim</p>
           </div>
-          <p className="me-3 my-auto userMenuIcons">1</p>
+          <p className="me-3 my-auto numberInteraction">1</p>
         </div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between mb-3">
           <div className="d-flex justify-content-start mt-2 mb-2 ms-3">
             <BsBoxArrowRight className="my-auto userMenuIcons" />
             <p className="ms-2 my-auto userMenuItems">Çıkış yap</p>

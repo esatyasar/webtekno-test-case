@@ -19,7 +19,7 @@
 }
 
 .navbarTitles {
-  width: 40.5rem;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   margin-left: 2.6rem;
@@ -39,9 +39,9 @@
 }
 
 .navbarIcons {
+  width: 25;
+  justify-content: flex-end;
   align-items: center;
-  width: 16rem;
-  min-width: 10rem;
 }
 
 .bi {
@@ -64,13 +64,39 @@ hr {
   height: 1.5rem;
 }
 
-.userCardMenu {
-  margin-top: 20rem;
+.collapseMenu {
+  margin-top: 24rem;
   z-index: 1;
 }
 
 .userCard {
   width: 273px;
-  height: 370px;
+}
+
+.collapseSearchBar {
+  z-index: 1;
+}
+
+.collapseSearch {
+  width: 25rem;
+  height: 3rem;
+}
+
+.collapseSearch:hover {
+  border-color: #D0021B;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    max-height: 10rem;
+  }
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarItemsContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

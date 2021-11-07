@@ -32,4 +32,12 @@
   width: 1.25rem;
   height: 1.25rem;
 }
+
+.numberInteraction {
+  color: #8C8C8C;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  letter-spacing: -0.2px;
+}
 /*# sourceMappingURL=DropdownUserMenu.css.map */

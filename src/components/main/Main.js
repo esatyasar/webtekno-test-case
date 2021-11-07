@@ -1,6 +1,5 @@
 import React from "react";
 import "./Main.css";
-import { BsSearch } from "react-icons/bs";
 
 function Main() {
   return (

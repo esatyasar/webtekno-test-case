@@ -1,4 +1,6 @@
 .searchBar {
-  margin-top: 55rem;
+  border: none;
+  outline: none;
+  height: 100%;
 }
 /*# sourceMappingURL=SearchBar.css.map */
