@@ -1,9 +1,13 @@
 @import "../../styles/variables.scss";
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(../../assets/PlusJakartaSans-Regular.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
+  font-family: Plus Jakarta Sans;
 }
 .mainContainer {
   margin-top: 5rem;
@@ -20,10 +24,12 @@
   background-size: cover;
   margin-bottom: 0.6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 .newsSubtitle {
   color: $whiteColor;
   max-width: 80%;
+  
 }
 .newsNotifications {
   color: $secondaryTextColor;
@@ -50,6 +56,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
+  cursor: pointer;
 }
 .newsSubtitle2 {
   color: $whiteColor;
@@ -88,6 +95,7 @@
   background-size: cover;
   margin-bottom: 0.6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 .userName {
   color: $secondaryTextColor;

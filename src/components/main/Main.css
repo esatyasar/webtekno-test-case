@@ -1,8 +1,13 @@
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(../../assets/PlusJakartaSans-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid black; */
+  font-family: Plus Jakarta Sans;
 }
 
 .mainContainer {
@@ -22,6 +27,7 @@
   background-size: cover;
   margin-bottom: 0.6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .newsSubtitle {
@@ -58,6 +64,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .newsSubtitle2 {
@@ -103,6 +110,7 @@
   background-size: cover;
   margin-bottom: 0.6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .userName {
