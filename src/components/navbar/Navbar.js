@@ -89,7 +89,7 @@ function Navbar() {
                 </a>
               </li>
               <div
-                className="collapse-horizontal contianer collapseSearchBar"
+                className="collapse collapse-horizontal contianer collapseSearchBar"
                 id="search"
               >
                 <div className="card collapseSearch">
@@ -109,7 +109,7 @@ function Navbar() {
                 </a>
               </li>
               <div
-                className="collapse-horizontal container collapseMenu"
+                className="collapse collapse-horizontal container collapseMenu"
                 id="bell"
               >
                 <div className="card userCard">
@@ -133,7 +133,7 @@ function Navbar() {
                 </a>
               </li>
               <div
-                className="collapse-horizontal container collapseMenu"
+                className="collapse collapse-horizontal container collapseMenu"
                 id="personCircle"
               >
                 <div className="card userCard">
