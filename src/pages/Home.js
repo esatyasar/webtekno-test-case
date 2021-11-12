@@ -5,9 +5,6 @@ function Home() {
   return (
     <div>
       <Main />
-      <div>
-        esat
-      </div>
     </div>
   );
 }
